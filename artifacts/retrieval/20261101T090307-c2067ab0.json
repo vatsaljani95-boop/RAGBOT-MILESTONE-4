@@ -1,0 +1,28 @@
+{
+  "query_id": "20261101T090307-c2067ab0",
+  "query": "Expense ratio of HDFC Large Cap Direct Growth",
+  "intent": "fact",
+  "refused": false,
+  "reason": null,
+  "message": null,
+  "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+  "scheme_filter": "hdfc-large-cap",
+  "k": 4,
+  "min_relevance": 0.25,
+  "in_corpus": true,
+  "hits": [
+    {
+      "id": "hdfc-large-cap:expense_ratio:de2feb13",
+      "distance": 0.6731753349304199,
+      "similarity": 0.3268246650695801,
+      "text": "Y All NAV: 30 Oct '26 ₹1,164.95 Min. for SIP ₹100 Fund size (AUM) ₹37,293.95 Cr Expense ratio 1.02% Rating 4 Return calculator Monthly SIP One time Monthly investment ₹5,000 Holdings ( 49 ) See All Minimum investments Min. for 1st investment ₹100 Min. f",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "Large Cap — HDFC Large Cap Fund Direct Growth",
+      "field": "expense_ratio",
+      "fetched_at": "2026-11-01T07:09:59.264900+00:00",
+      "source_id": "hdfc-large-cap"
+    }
+  ],
+  "field_filter": "expense_ratio",
+  "best_similarity": 0.3268246650695801
+}

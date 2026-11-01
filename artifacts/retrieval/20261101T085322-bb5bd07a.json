@@ -1,0 +1,14 @@
+{
+  "query_id": "20261101T085322-bb5bd07a",
+  "query": "expense ratio of SBI Small Cap",
+  "intent": "fact",
+  "refused": false,
+  "reason": "unknown_scheme",
+  "message": "This fact is not in the listed Groww HDFC corpus.",
+  "source_url": null,
+  "scheme_filter": null,
+  "k": 4,
+  "min_relevance": 0.25,
+  "in_corpus": false,
+  "hits": []
+}

@@ -1,0 +1,27 @@
+{
+  "answer": {
+    "query_id": "20261101T091744-b75eba47",
+    "text": "This fact is not in the listed Groww HDFC corpus.",
+    "source_url": null,
+    "last_updated_from_sources": "",
+    "refused": false,
+    "in_corpus": false,
+    "disclaimer": "Facts-only. No investment advice.",
+    "used_llm": false,
+    "retrieval": {
+      "intent": "fact",
+      "reason": null,
+      "scheme_filter": "hdfc-mid-cap",
+      "best_similarity": 0.19868987798690796,
+      "hits": [
+        {
+          "id": "hdfc-mid-cap:exit_load:c9746c6d",
+          "field": "exit_load",
+          "similarity": 0.19868987798690796,
+          "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+        }
+      ]
+    }
+  },
+  "raw_completion": null
+}

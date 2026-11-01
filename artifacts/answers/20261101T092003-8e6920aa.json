@@ -1,0 +1,77 @@
+{
+  "answer": {
+    "query_id": "20261101T092003-8e6920aa",
+    "text": "The provided information does not contain the PAN number for Rahul Baijal. The retrieved documents list other HDFC Mutual Fund officials, such as Navneet Munot and Chirag Setalvad, but do not mention Rahul Baijal.",
+    "source_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+    "last_updated_from_sources": "2026-11-01",
+    "refused": false,
+    "in_corpus": true,
+    "disclaimer": "Facts-only. No investment advice.",
+    "used_llm": true,
+    "retrieval": {
+      "intent": "fact",
+      "reason": null,
+      "scheme_filter": null,
+      "best_similarity": 0.35723745822906494,
+      "hits": [
+        {
+          "id": "hdfc-amc:section_3:cf1980c5",
+          "field": "section_3",
+          "similarity": 0.35723745822906494,
+          "url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds"
+        },
+        {
+          "id": "hdfc-flexi-cap:aum:452da501",
+          "field": "aum",
+          "similarity": 0.3328808546066284,
+          "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+        },
+        {
+          "id": "hdfc-elss:aum:e4950b7a",
+          "field": "aum",
+          "similarity": 0.3299175500869751,
+          "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+        },
+        {
+          "id": "hdfc-large-cap:aum:527c923b",
+          "field": "aum",
+          "similarity": 0.3262350559234619,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        }
+      ]
+    }
+  },
+  "raw_completion": {
+    "id": "chatcmpl-5ca0fe27-099c-4a78-8704-384ff68c31f4",
+    "object": "chat.completion",
+    "created": 1793524804,
+    "model": "qwen/qwen3.8-27b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The provided information does not contain the PAN number for Rahul Baijal. The retrieved documents list other HDFC Mutual Fund officials, such as Navneet Munot and Chirag Setalvad, but do not mention Rahul Baijal."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.055296128,
+      "prompt_tokens": 1236,
+      "prompt_time": 0.088943142,
+      "completion_tokens": 49,
+      "completion_time": 0.109340744,
+      "total_tokens": 1285,
+      "total_time": 0.198283886
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_424cb89518",
+    "x_groq": {
+      "id": "req_01m6b6haw0epq9ev2zpssd24g7",
+      "seed": 89603470
+    },
+    "service_tier": "on_demand"
+  }
+}

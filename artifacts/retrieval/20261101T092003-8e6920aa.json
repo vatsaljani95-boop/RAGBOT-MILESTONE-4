@@ -1,0 +1,61 @@
+{
+  "query_id": "20261101T092003-8e6920aa",
+  "query": "give me pan number of rahul baijal",
+  "intent": "fact",
+  "refused": false,
+  "reason": null,
+  "message": null,
+  "source_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+  "scheme_filter": null,
+  "k": 4,
+  "min_relevance": 0.25,
+  "in_corpus": true,
+  "hits": [
+    {
+      "id": "hdfc-amc:section_3:cf1980c5",
+      "distance": 0.6427625417709351,
+      "similarity": 0.35723745822906494,
+      "text": "Limited (AIML) erstwhile (Standard Life Investments)\nTrustee organisation | HDFC Trustee Company LtdName of trustees | Mr. Vimal Bhandari (Chairman) | Mr. V.Srinivasa Rangan (Director) | Mr. Mehernosh Kapadia (Independent Director) | Mr. Dindayal Jalan (Independent Director)\nCIO | Head – Equities: Chirag Setalvad, Head – Fixed Income: Shobhit Mehrotra\nMD | Mr. Navneet Munot\nCEO | Navneet Munot(Chief Executive Officer)\nCompliance Officer | Ms. Supriya Sapre\nInvestor Service Officer | Mr. Sameer Sakseria\nTotal AUM (as of end of last quarter) | ₹9,34,075.66Cr\nAddress | \"HDFC House\", 2nd Floor, H. T. Parekh Marg, 165-166, BackbayReclamation, Churchgate Mumbai 400020\nMin Investment Amt | ₹100\nAUM | ₹1,01,856Cr\n1Y Returns | -2.5%\nMin Investment Amt | ₹100\nAUM | ₹4,497Cr\n1Y Returns | 20.4%\nMin Investment Amt | ₹100\nAUM | ₹11,493Cr\n1Y Returns | 12.6%\nMin Investment Amt | ₹100\nAUM | ₹1,08,546Cr\n1Y Returns | -3.5%\nMin Investment Amt | ₹100\nAUM | ₹3,501Cr\n1Y Returns | 23.8%",
+      "url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+      "scheme_name": "AMC overview — HDFC Mutual Fund",
+      "field": "section_3",
+      "fetched_at": "2026-11-01T07:09:57.478204+00:00",
+      "source_id": "hdfc-amc"
+    },
+    {
+      "id": "hdfc-flexi-cap:aum:452da501",
+      "distance": 0.6671191453933716,
+      "similarity": 0.3328808546066284,
+      "text": "lised +0.32 % 1D 1M 6M 1Y 3Y 5Y All NAV: 30 Oct '26 ₹2,187.57 Min. for SIP ₹100 Fund size (AUM) ₹1,08,546.98 Cr Expense ratio 0.75% Rating 5 Return calculator Monthly SIP One time Monthly investment ₹5,000 Holdings ( 86 ) See All Minimum investments Min.",
+      "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "scheme_name": "Flexi Cap — HDFC Flexi Cap Direct Plan Growth",
+      "field": "aum",
+      "fetched_at": "2026-11-01T07:10:00.967450+00:00",
+      "source_id": "hdfc-flexi-cap"
+    },
+    {
+      "id": "hdfc-elss:aum:e4950b7a",
+      "distance": 0.6700824499130249,
+      "similarity": 0.3299175500869751,
+      "text": "lised +0.18 % 1D 1M 6M 1Y 3Y 5Y All NAV: 30 Oct '26 ₹1,434.92 Min. for SIP ₹500 Fund size (AUM) ₹14,948.74 Cr Expense ratio 1.20% Rating 5 Return calculator Monthly SIP One time Monthly investment ₹5,000 Holdings ( 64 ) See All Minimum investments Min. fo",
+      "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "scheme_name": "ELSS — HDFC ELSS Tax Saver Fund Direct Plan Growth",
+      "field": "aum",
+      "fetched_at": "2026-11-01T07:10:02.700196+00:00",
+      "source_id": "hdfc-elss"
+    },
+    {
+      "id": "hdfc-large-cap:aum:527c923b",
+      "distance": 0.6737649440765381,
+      "similarity": 0.3262350559234619,
+      "text": "lised +0.27 % 1D 1M 6M 1Y 3Y 5Y All NAV: 30 Oct '26 ₹1,164.95 Min. for SIP ₹100 Fund size (AUM) ₹37,293.95 Cr Expense ratio 1.02% Rating 4 Return calculator Monthly SIP One time Monthly investment ₹5,000 Holdings ( 49 ) See All Minimum investments Min. fo",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "Large Cap — HDFC Large Cap Fund Direct Growth",
+      "field": "aum",
+      "fetched_at": "2026-11-01T07:09:59.264900+00:00",
+      "source_id": "hdfc-large-cap"
+    }
+  ],
+  "field_filter": null,
+  "best_similarity": 0.35723745822906494
+}

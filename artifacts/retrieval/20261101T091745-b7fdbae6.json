@@ -1,0 +1,28 @@
+{
+  "query_id": "20261101T091745-b7fdbae6",
+  "query": "Exit load of HDFC Mid Cap Direct Growth",
+  "intent": "fact",
+  "refused": false,
+  "reason": null,
+  "message": "This fact is not in the listed Groww HDFC corpus.",
+  "source_url": null,
+  "scheme_filter": "hdfc-mid-cap",
+  "k": 4,
+  "min_relevance": 0.25,
+  "in_corpus": false,
+  "hits": [
+    {
+      "id": "hdfc-mid-cap:exit_load:c9746c6d",
+      "distance": 0.801310122013092,
+      "similarity": 0.19868987798690796,
+      "text": "mp duty A form of tax payable for the purchase or sale of an asset or security. Exit Load 01 Jan 2013 Exit load of 1% if redeemed within 1 year. Exit load, stamp duty and tax Exit load Exit load of 1% if redeemed within 1 year. Stamp duty on investment: 0.005% (from July 1st, 2020) from July 1st 2020 Tax implication If you redeem within one year,",
+      "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "scheme_name": "Mid Cap — HDFC Mid Cap Fund Direct Growth",
+      "field": "exit_load",
+      "fetched_at": "2026-11-01T07:10:04.403407+00:00",
+      "source_id": "hdfc-mid-cap"
+    }
+  ],
+  "field_filter": "exit_load",
+  "best_similarity": 0.19868987798690796
+}

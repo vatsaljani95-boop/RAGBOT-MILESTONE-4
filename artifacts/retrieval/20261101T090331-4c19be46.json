@@ -1,0 +1,14 @@
+{
+  "query_id": "20261101T090331-4c19be46",
+  "query": "Should I buy HDFC Large Cap?",
+  "intent": "advice",
+  "refused": true,
+  "reason": "advice",
+  "message": "Facts-only. I cannot say whether you should buy or sell. See the official scheme page for published facts.",
+  "source_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+  "scheme_filter": null,
+  "k": 4,
+  "min_relevance": 0.25,
+  "in_corpus": false,
+  "hits": []
+}

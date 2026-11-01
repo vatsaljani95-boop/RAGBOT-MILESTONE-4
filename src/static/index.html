@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HDFC MF FAQ assistant</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="kicker">HDFC Mutual Fund FAQ</p>
+      <h1>Ask a published fact about the listed Groww scheme pages.</h1>
+      <p class="note" role="note">Facts-only. No investment advice.</p>
+    </header>
+
+    <p class="disclaimer">This prototype answers from five public Groww pages only. It is not advice, and it does not use your account data.</p>
+
+    <section class="examples" aria-label="Example questions">
+      <button type="button" data-q="Expense ratio of HDFC Large Cap Direct Growth">Expense ratio of HDFC Large Cap Direct Growth</button>
+      <button type="button" data-q="Minimum SIP for HDFC ELSS Tax Saver">Minimum SIP for HDFC ELSS Tax Saver</button>
+      <button type="button" data-q="Exit load of HDFC Mid Cap Direct Growth">Exit load of HDFC Mid Cap Direct Growth</button>
+    </section>
+
+    <form id="ask-form">
+      <label for="question">Your question</label>
+      <div class="row">
+        <input id="question" name="question" maxlength="500" autocomplete="off" placeholder="e.g. What is the expense ratio of HDFC Large Cap Direct Growth?" />
+        <button type="submit">Ask</button>
+      </div>
+    </form>
+
+    <p id="status" class="status" hidden></p>
+
+    <article id="answer" class="answer" hidden>
+      <p id="answer-text"></p>
+      <p id="source" class="meta"></p>
+      <p id="updated" class="meta"></p>
+      <p class="note">Facts-only. No investment advice.</p>
+    </article>
+
+    <details class="stages">
+      <summary>Show RAG stages</summary>
+      <p class="hint">Files written by scrape → load → chunk → embed → Chroma → retrieval → answers.</p>
+      <pre id="stages">Loading…</pre>
+    </details>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

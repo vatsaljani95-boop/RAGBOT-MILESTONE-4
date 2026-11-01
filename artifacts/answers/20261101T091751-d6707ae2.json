@@ -1,0 +1,59 @@
+{
+  "answer": {
+    "query_id": "20261101T091751-d6707ae2",
+    "text": "The expense ratio for the HDFC Large Cap Fund Direct Growth is 1.02%. This fund has an Asset Under Management (AUM) of ₹37,293.95 Cr. The minimum amount required for a Systematic Investment Plan (SIP) is ₹100.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "last_updated_from_sources": "2026-11-01",
+    "refused": false,
+    "in_corpus": true,
+    "disclaimer": "Facts-only. No investment advice.",
+    "used_llm": true,
+    "retrieval": {
+      "intent": "fact",
+      "reason": null,
+      "scheme_filter": "hdfc-large-cap",
+      "best_similarity": 0.3268246650695801,
+      "hits": [
+        {
+          "id": "hdfc-large-cap:expense_ratio:de2feb13",
+          "field": "expense_ratio",
+          "similarity": 0.3268246650695801,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        }
+      ]
+    }
+  },
+  "raw_completion": {
+    "id": "chatcmpl-8372f812-57a2-4e40-ba03-dc48114c65ec",
+    "object": "chat.completion",
+    "created": 1793524672,
+    "model": "qwen/qwen3.8-27b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The expense ratio for the HDFC Large Cap Fund Direct Growth is 1.02%. This fund has an Asset Under Management (AUM) of ₹37,293.95 Cr. The minimum amount required for a Systematic Investment Plan (SIP) is ₹100."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.048837941,
+      "prompt_tokens": 342,
+      "prompt_time": 0.024722799,
+      "completion_tokens": 64,
+      "completion_time": 0.121820548,
+      "total_tokens": 406,
+      "total_time": 0.146543347
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_a1293f40b5",
+    "x_groq": {
+      "id": "req_01m6b6d9j7eem9gbq9ge7v0et8",
+      "seed": 1416242496
+    },
+    "service_tier": "on_demand"
+  }
+}

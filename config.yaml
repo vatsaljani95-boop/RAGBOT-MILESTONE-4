@@ -1,0 +1,52 @@
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+
+paths:
+  raw: data/raw
+  cleaned: data/cleaned
+  chunks: data/chunks
+  embeddings: data/embeddings
+  chroma: chroma
+  artifacts_retrieval: artifacts/retrieval
+  artifacts_answers: artifacts/answers
+
+allowed_hosts:
+  - groww.in
+  - www.groww.in
+
+scrape:
+  timeout_seconds: 30
+  pause_seconds: 1.5
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+chunking:
+  strategy: field_aware_section
+  section_max_chars: 1000
+  overlap: 100
+
+chroma:
+  persist_dir: chroma
+  collection: hdfc_mf_faq
+
+retrieval:
+  k: 4
+  min_relevance: 0.25
+
+llm:
+  provider: groq
+
+sources:
+  - id: hdfc-amc
+    name: AMC overview — HDFC Mutual Fund
+    url: https://groww.in/mutual-funds/amc/hdfc-mutual-funds
+  - id: hdfc-large-cap
+    name: Large Cap — HDFC Large Cap Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+  - id: hdfc-flexi-cap
+    name: Flexi Cap — HDFC Flexi Cap Direct Plan Growth
+    url: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+  - id: hdfc-elss
+    name: ELSS — HDFC ELSS Tax Saver Fund Direct Plan Growth
+    url: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+  - id: hdfc-mid-cap
+    name: Mid Cap — HDFC Mid Cap Fund Direct Growth
+    url: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth

@@ -1,0 +1,77 @@
+{
+  "answer": {
+    "query_id": "20261101T091941-a22cf9f1",
+    "text": "Rahul Baijal is the current fund manager for the HDFC Large Cap Fund Direct Growth scheme. He previously worked with Motilal Oswal Financial Services Ltd., Goldman Sachs, CRISIL Global Research & Analytics, and Deloitte Haskins & Sells. He also manages several other HDFC Mutual Fund schemes, including the HDFC Flexi Cap Direct Plan Growth and HDFC Value Fund Direct Plan Growth.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "last_updated_from_sources": "2026-11-01",
+    "refused": false,
+    "in_corpus": true,
+    "disclaimer": "Facts-only. No investment advice.",
+    "used_llm": true,
+    "retrieval": {
+      "intent": "fact",
+      "reason": null,
+      "scheme_filter": "hdfc-large-cap",
+      "best_similarity": 0.7581529021263123,
+      "hits": [
+        {
+          "id": "hdfc-large-cap:section_12:c2b8ab3d",
+          "field": "section_12",
+          "similarity": 0.7581529021263123,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        },
+        {
+          "id": "hdfc-large-cap:riskometer:23166fd9",
+          "field": "riskometer",
+          "similarity": 0.675546407699585,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        },
+        {
+          "id": "hdfc-large-cap:section_6:e5ea9bef",
+          "field": "section_6",
+          "similarity": 0.6246347427368164,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        },
+        {
+          "id": "hdfc-large-cap:section_10:a44d1f1e",
+          "field": "section_10",
+          "similarity": 0.5907449126243591,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        }
+      ]
+    }
+  },
+  "raw_completion": {
+    "id": "chatcmpl-bd5f5b99-dec8-4513-8ab7-43bca2a75225",
+    "object": "chat.completion",
+    "created": 1793524782,
+    "model": "qwen/qwen3.8-27b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Rahul Baijal is the current fund manager for the HDFC Large Cap Fund Direct Growth scheme. He previously worked with Motilal Oswal Financial Services Ltd., Goldman Sachs, CRISIL Global Research & Analytics, and Deloitte Haskins & Sells. He also manages several other HDFC Mutual Fund schemes, including the HDFC Flexi Cap Direct Plan Growth and HDFC Value Fund Direct Plan Growth."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.050246383,
+      "prompt_tokens": 1192,
+      "prompt_time": 0.084934297,
+      "completion_tokens": 86,
+      "completion_time": 0.177555979,
+      "total_tokens": 1278,
+      "total_time": 0.262490276
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_a1293f40b5",
+    "x_groq": {
+      "id": "req_01m6b6gn6meyhrscxsd7nb5bza",
+      "seed": 156748328
+    },
+    "service_tier": "on_demand"
+  }
+}

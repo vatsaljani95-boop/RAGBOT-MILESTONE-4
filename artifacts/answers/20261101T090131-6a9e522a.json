@@ -1,0 +1,45 @@
+{
+  "answer": {
+    "query_id": "20261101T090131-6a9e522a",
+    "text": "Large Cap — HDFC Large Cap Fund Direct Growth: st NAV as of 30 Oct 2026 is ₹1,164.95. The HDFC Large Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "last_updated_from_sources": "2026-11-01",
+    "refused": false,
+    "in_corpus": true,
+    "disclaimer": "Facts-only. No investment advice.",
+    "used_llm": false,
+    "retrieval": {
+      "intent": "fact",
+      "reason": null,
+      "scheme_filter": "hdfc-large-cap",
+      "best_similarity": 0.6695818305015564,
+      "hits": [
+        {
+          "id": "hdfc-large-cap:riskometer:23166fd9",
+          "field": "riskometer",
+          "similarity": 0.6695818305015564,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        },
+        {
+          "id": "hdfc-large-cap:section_12:c2b8ab3d",
+          "field": "section_12",
+          "similarity": 0.6452323198318481,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        },
+        {
+          "id": "hdfc-large-cap:section_11:3a3400a0",
+          "field": "section_11",
+          "similarity": 0.5484899282455444,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        },
+        {
+          "id": "hdfc-large-cap:section_6:e5ea9bef",
+          "field": "section_6",
+          "similarity": 0.5369704961776733,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        }
+      ]
+    }
+  },
+  "raw_completion": null
+}

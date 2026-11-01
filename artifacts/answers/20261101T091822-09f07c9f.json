@@ -1,0 +1,59 @@
+{
+  "answer": {
+    "query_id": "20261101T091822-09f07c9f",
+    "text": "The expense ratio for HDFC Large Cap Fund Direct Growth is 1.02%. This fund has an Asset Under Management (AUM) of ₹37,293.95 Cr. The minimum amount required for a Systematic Investment Plan (SIP) is ₹100.",
+    "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+    "last_updated_from_sources": "2026-11-01",
+    "refused": false,
+    "in_corpus": true,
+    "disclaimer": "Facts-only. No investment advice.",
+    "used_llm": true,
+    "retrieval": {
+      "intent": "fact",
+      "reason": null,
+      "scheme_filter": "hdfc-large-cap",
+      "best_similarity": 0.3268246650695801,
+      "hits": [
+        {
+          "id": "hdfc-large-cap:expense_ratio:de2feb13",
+          "field": "expense_ratio",
+          "similarity": 0.3268246650695801,
+          "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+        }
+      ]
+    }
+  },
+  "raw_completion": {
+    "id": "chatcmpl-00065332-24e4-416e-baa5-f6a858f2c911",
+    "object": "chat.completion",
+    "created": 1793524704,
+    "model": "qwen/qwen3.8-27b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "The expense ratio for HDFC Large Cap Fund Direct Growth is 1.02%. This fund has an Asset Under Management (AUM) of ₹37,293.95 Cr. The minimum amount required for a Systematic Investment Plan (SIP) is ₹100."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.04864022,
+      "prompt_tokens": 342,
+      "prompt_time": 0.02587401,
+      "completion_tokens": 63,
+      "completion_time": 0.128383507,
+      "total_tokens": 405,
+      "total_time": 0.154257517
+    },
+    "usage_breakdown": null,
+    "system_fingerprint": "fp_a1293f40b5",
+    "x_groq": {
+      "id": "req_01m6b6e8mjee9bg9vq15sabfa8",
+      "seed": 336348170
+    },
+    "service_tier": "on_demand"
+  }
+}

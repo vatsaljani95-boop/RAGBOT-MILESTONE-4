@@ -1,0 +1,60 @@
+{
+  "query_id": "20261101T085241-9e40648b",
+  "query": "expense ratio of SBI Small Cap",
+  "intent": "fact",
+  "refused": false,
+  "reason": null,
+  "message": null,
+  "source_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+  "scheme_filter": null,
+  "k": 4,
+  "min_relevance": 0.25,
+  "in_corpus": true,
+  "hits": [
+    {
+      "id": "hdfc-flexi-cap:section_6:e56a42d5",
+      "distance": 0.44511479139328003,
+      "similarity": 0.55488520860672,
+      "text": "| -0.\nName | 1Y | 3Y | Fund Size(Cr)\nITI Flexi Cap Fund Direct Growth | +6.93% | +18.29% | 1,588.28Bank of India Flexi Cap Fund Direct Growth | +2.37% | +18.11% | 3,098.01\nHDFC Flexi Cap Direct Plan Growth | -3.47% | +15.79% | 1,08,546.98\nHSBC Flexi Cap Fund Direct Growth | -1.06% | +14.85% | 5,748.74\nFranklin India Flexi Cap Fund Direct Growth | -8.33% | +10.47% | 18,188.24\nCompare\nReturn calculator\nHoldings ( 86 )\nMinimum investments\nUnderstand terms\nAverage of the yearly returns of a mutual fund over a given period.\nThe total return of a mutual fund over a given period.\nReturns and rankings\nUnderstand terms\nA fee payable to a mutual fund house for managing your mutual fund investments. It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.",
+      "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "scheme_name": "Flexi Cap — HDFC Flexi Cap Direct Plan Growth",
+      "field": "section_6",
+      "fetched_at": "2026-11-01T07:10:00.967450+00:00",
+      "source_id": "hdfc-flexi-cap"
+    },
+    {
+      "id": "hdfc-flexi-cap:riskometer:3f63f2b6",
+      "distance": 0.4744517207145691,
+      "similarity": 0.5255482792854309,
+      "text": "st NAV as of 30 Oct 2026 is ₹2,187.57. The HDFC Flexi Cap Direct Plan Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year ;",
+      "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "scheme_name": "Flexi Cap — HDFC Flexi Cap Direct Plan Growth",
+      "field": "riskometer",
+      "fetched_at": "2026-11-01T07:10:00.967450+00:00",
+      "source_id": "hdfc-flexi-cap"
+    },
+    {
+      "id": "hdfc-large-cap:riskometer:23166fd9",
+      "distance": 0.4831011891365051,
+      "similarity": 0.5168988108634949,
+      "text": "st NAV as of 30 Oct 2026 is ₹1,164.95. The HDFC Large Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year ;",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "Large Cap — HDFC Large Cap Fund Direct Growth",
+      "field": "riskometer",
+      "fetched_at": "2026-11-01T07:09:59.264900+00:00",
+      "source_id": "hdfc-large-cap"
+    },
+    {
+      "id": "hdfc-amc:section_11:6153cb57",
+      "distance": 0.5049501657485962,
+      "similarity": 0.4950498342514038,
+      "text": "um Investment Amount: Lump sum minimum amount for HDFC Defence Fund is ₹100 and for SIP, it is ₹100.HDFC Flexi Cap Direct Plan Growth\nFund Performance: The fund's annualized returns for the past 3 years & 5 years has been around 15.79% & 15.51%. The HDFC Flexi Cap Direct Plan-Growth comes under the Equity category of HDFC Mutual Funds.\nMinimum Investment Amount: Lump sum minimum amount for HDFC Flexi Cap Direct Plan-Growth is ₹100 and for SIP, it is ₹100.\nHDFC Pharma And Healthcare Fund Direct Growth\nFund Performance: The HDFC Pharma And Healthcare Fund comes under the Equity category of HDFC Mutual Funds.\nMinimum Investment Amount: Lump sum minimum amount for HDFC Pharma And Healthcare Fund is ₹100 and for SIP, it is ₹100.\nHDFC Small Cap Fund Direct Growth\nFund Performance: The fund's annualized returns for the past 3 years & 5 years has been around 8.93% & 13.06%. The HDFC Small Cap Fund comes under the Equity category of HDFC Mutual Funds.",
+      "url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+      "scheme_name": "AMC overview — HDFC Mutual Fund",
+      "field": "section_11",
+      "fetched_at": "2026-11-01T07:09:57.478204+00:00",
+      "source_id": "hdfc-amc"
+    }
+  ],
+  "best_similarity": 0.55488520860672
+}

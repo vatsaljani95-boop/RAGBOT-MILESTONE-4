@@ -1,0 +1,20 @@
+{
+  "answer": {
+    "query_id": "20261101T090331-4c19be46",
+    "text": "Facts-only. I cannot say whether you should buy or sell. See the official scheme page for published facts.",
+    "source_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+    "last_updated_from_sources": "",
+    "refused": true,
+    "in_corpus": false,
+    "disclaimer": "Facts-only. No investment advice.",
+    "used_llm": false,
+    "retrieval": {
+      "intent": "advice",
+      "reason": "advice",
+      "scheme_filter": null,
+      "best_similarity": null,
+      "hits": []
+    }
+  },
+  "raw_completion": null
+}

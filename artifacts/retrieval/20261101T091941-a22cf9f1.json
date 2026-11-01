@@ -1,0 +1,61 @@
+{
+  "query_id": "20261101T091941-a22cf9f1",
+  "query": "who are fund manager for hdfc large cap",
+  "intent": "fact",
+  "refused": false,
+  "reason": null,
+  "message": null,
+  "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+  "scheme_filter": "hdfc-large-cap",
+  "k": 4,
+  "min_relevance": 0.25,
+  "in_corpus": true,
+  "hits": [
+    {
+      "id": "hdfc-large-cap:section_12:c2b8ab3d",
+      "distance": 0.24184709787368774,
+      "similarity": 0.7581529021263123,
+      "text": "HDFC Innovation Fund Direct Growth About HDFC Large Cap Fund Direct Growth HDFC Large Cap Fund Dire HDFC Innovation Fund Direct Growth About HDFC Large Cap Fund Direct Growth HDFC Large Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Rahul Baijal is the Current Fund Manager of HDFC Large Cap Fund Direct Growth fund. The fund currently has an Asset Under Management(AUM) of ₹9,34,076 Cr and the Late\nInvestment Objective The scheme seeks to provide long-term",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "Large Cap — HDFC Large Cap Fund Direct Growth",
+      "field": "section_12",
+      "fetched_at": "2026-11-01T07:09:59.264900+00:00",
+      "source_id": "hdfc-large-cap"
+    },
+    {
+      "id": "hdfc-large-cap:riskometer:23166fd9",
+      "distance": 0.32445359230041504,
+      "similarity": 0.675546407699585,
+      "text": "st NAV as of 30 Oct 2026 is ₹1,164.95. The HDFC Large Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year ;",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "Large Cap — HDFC Large Cap Fund Direct Growth",
+      "field": "riskometer",
+      "fetched_at": "2026-11-01T07:09:59.264900+00:00",
+      "source_id": "hdfc-large-cap"
+    },
+    {
+      "id": "hdfc-large-cap:section_6:e5ea9bef",
+      "distance": 0.3753652572631836,
+      "similarity": 0.6246347427368164,
+      "text": "und Direct Growth\nAbout HDFC Large Cap Fund Direct Growth\nInvestment Objective\nFund house\nFund houseHDFC Large Cap Fund Direct Growth - NAV, Mutual Fund Performance & Portfolio Stocks Invest in Stocks Invest in stocks, ETFs, IPOs with fast orders. Track returns on your stock holdings and view real-time P&L on your positions. Intraday Monitor top intraday performers in real time ETF Screener Get the best of Mutual Funds and flexibility of Stocks IPO Track upcoming and ongoing IPOs MTFs Buy now, pay later Stock Screener Filter based on RSI, PE ratio and more Stock Events Dividends, bonus, buybacks and more Demat Account Begin your stock market journey Share Market Today Live news updates from stock market F&O Trade in Futures & Options Trade in F&O using the terminal. View charts, indicators, track your orders , P&L and watchlists in a single space Indices Track markets across the globe Terminal Track charts, orders, positions, watchlists in one place Option chain Analyse chains, view payoffs, create baskets Pledge Get extra balance for trading Commodities Trade in Crude Oil, Gold, Sil",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "Large Cap — HDFC Large Cap Fund Direct Growth",
+      "field": "section_6",
+      "fetched_at": "2026-11-01T07:09:59.264900+00:00",
+      "source_id": "hdfc-large-cap"
+    },
+    {
+      "id": "hdfc-large-cap:section_10:a44d1f1e",
+      "distance": 0.40925508737564087,
+      "similarity": 0.5907449126243591,
+      "text": "to joining HDFC MF,he has worked with Motilal Oswal Financial Services Ltd., Goldman Sachs, CRISIL Gto joining HDFC MF,he has worked with Motilal Oswal Financial Services Ltd., Goldman Sachs, CRISIL Global Research & Analytics and Deloitte Haskins & Sells Also manages these schemes HDFC Flexi Cap Direct Plan Growth HDFC Value Fund Direct Plan Growth HDFC Ultra Short to Short Term Fund Direct Growth HDFC Focused Fund Direct Growth HDFC Floating Interest Rates Fund Direct Plan Growth HDFC Balanced Advantage Fund Direct Growth HDFC Dynamic Term Fund Direct Plan Growth HDFC Medium Term Fund Direct Growth HDFC Medium to Long Term Fund Direct Growth HDFC Infrastructure Fund Direct Growth HDFC Corporate Bond Fund Direct Plan Growth HDFC Conservative Hybrid Fund Direct Growth HDFC Mid Cap Fund Direct Growth HDFC Equity Savings Direct Plan Growth HDFC Multi Asset Allocation Fund Direct Growth HDFC Aggressive Hybrid Fund Direct Plan Growth HDFC Short Term Fund Direct Plan Growth HDFC ELSS Tax Saver Fund Direct Plan Growth HDFC Large Cap Fund Direct Growth HDFC Credit Risk Fund Direct Growth HD",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "scheme_name": "Large Cap — HDFC Large Cap Fund Direct Growth",
+      "field": "section_10",
+      "fetched_at": "2026-11-01T07:09:59.264900+00:00",
+      "source_id": "hdfc-large-cap"
+    }
+  ],
+  "field_filter": null,
+  "best_similarity": 0.7581529021263123
+}
