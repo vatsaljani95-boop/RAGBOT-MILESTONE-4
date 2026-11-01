@@ -4,6 +4,7 @@ import json
 import os
 import re
 from datetime import datetime
+from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
@@ -172,13 +173,19 @@ def answer_question(question: str) -> dict:
         },
     }
 
-    out_dir = project_path(cfg["paths"]["artifacts_answers"])
-    out_dir.mkdir(parents=True, exist_ok=True)
-    payload = {"answer": result, "raw_completion": raw_completion}
-    (out_dir / f"{retrieval['query_id']}.json").write_text(
-        json.dumps(payload, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
+    if os.getenv("VERCEL"):
+        out_dir = Path("/tmp/answers")
+    else:
+        out_dir = project_path(cfg["paths"]["artifacts_answers"])
+    try:
+        out_dir.mkdir(parents=True, exist_ok=True)
+        payload = {"answer": result, "raw_completion": raw_completion}
+        (out_dir / f"{retrieval['query_id']}.json").write_text(
+            json.dumps(payload, indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except OSError:
+        pass
     return result
 
 

@@ -28,6 +28,7 @@ chroma:
   collection: hdfc_mf_faq
 
 retrieval:
+  backend: artifacts
   k: 4
   min_relevance: 0.25
 

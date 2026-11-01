@@ -135,14 +135,17 @@ Upsert each listed chunk with its MiniLM vector. Metadata: `url`, `scheme_name`,
 
 ## 7. Retrieval logic
 
-**Input:** user question + Chroma collection `hdfc_mf_faq`  
-**Output:** `artifacts/retrieval/{query_id}.json`
+**Input:** user question + saved site chunks in `data/chunks/chunks.jsonl`  
+**Output:** `artifacts/retrieval/{query_id}.json` (or `/tmp` on Vercel)
 
-1. Run guardrails. PII / empty / advice → stop, no Chroma query. Do not store raw PII.
-2. Embed the question with the **same** MiniLM model from config.
-3. Query Chroma `k` from config. If the question names a listed scheme, filter `source_id`.
-4. Similarity is `1 - cosine_distance`. If best score is below `min_relevance`, return “not in this corpus”.
-5. Write the query (or `[redacted]`), hits, scores, and source URL to `artifacts/retrieval/`.
+Runtime does **not** scrape the web and does **not** load Torch/Chroma. It searches the stored Groww page artifacts.
+
+1. Run guardrails. PII / empty / advice → stop. Do not store raw PII.
+2. Score saved chunks (scheme + field + token overlap). `k` and `min_relevance` from config.
+3. If best score is below `min_relevance`, return “not in this corpus”.
+4. Write the query (or `[redacted]`), hits, and source URL.
+
+Local ingest can still build Chroma with `requirements-ingest.txt` if `retrieval.backend` is `chroma`. Deploy uses `artifacts`.
 
 **How:**
 ```text
@@ -163,6 +166,8 @@ Tiny local page at `http://127.0.0.1:8000`.
 - Guardrails run before retrieval. Groq is used when `GROQ_API_KEY` and `LLM_MODEL` are set in `.env`; otherwise the answer is taken from retrieved chunk text.
 
 **How:** `python -m uvicorn src.app:app --host 127.0.0.1 --port 8000`
+
+**Vercel:** deploy this repo (not Torch/Chroma). Set `GROQ_API_KEY` and `LLM_MODEL` in the Vercel project env. `requirements.txt` is slim so the function stays well under 400MB. Site HTML is not uploaded; only `data/chunks` and `data/cleaned`.
 
 ---
 

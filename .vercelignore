@@ -1,0 +1,14 @@
+.venv
+venv
+__pycache__
+*.pyc
+.git
+.chroma
+chroma
+data/raw
+data/embeddings
+artifacts
+*.egg-info
+.pytest_cache
+requirements-ingest.txt
+.env
